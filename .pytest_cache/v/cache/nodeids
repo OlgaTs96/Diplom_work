@@ -1,0 +1,17 @@
+[
+  "tests/test_API.py::test_create_project",
+  "tests/test_API.py::test_create_project_negative_empty_body",
+  "tests/test_API.py::test_create_project_positive",
+  "tests/test_API.py::test_get_project_by_id_negative_no_auth",
+  "tests/test_API.py::test_get_project_by_id_positive",
+  "tests/test_API.py::test_update_project",
+  "tests/test_API.py::test_update_project_negative_no_id",
+  "tests/test_API.py::test_update_project_positive",
+  "tests/test_auth_neg.py::test_authentication_negative",
+  "tests/test_auth_pos.py::test_authentication_positive",
+  "tests/test_create.py::test_create_prod",
+  "tests/test_pos.py::test_authentication_positive",
+  "tests/test_pos.py::test_create_prod",
+  "tests/test_pos.py::test_create_task",
+  "tests/test_pos.py::test_del_task"
+]

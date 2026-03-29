@@ -1,0 +1,11 @@
+{
+  "tests/test_create.py::test_create_prod": true,
+  "tests/test_API.py::test_create_project": true,
+  "tests/test_API.py::test_create_project_negative_empty_body": true,
+  "tests/test_API.py::test_update_project": true,
+  "tests/test_pos.py::test_authentication_positive": true,
+  "tests/test_pos.py::test_authentication_negative": true,
+  "tests/test_pos.py::test_create_prod": true,
+  "tests/test_pos.py::test_create_task": true,
+  "tests/test_pos.py::test_del_task": true
+}
