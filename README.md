@@ -23,11 +23,11 @@
 ---
 ## Инструкция по заполнению файла .env
 
-- login=ucfh4@dollicons.com
-- password=Test1234!
-- API_LOGIN=ucfh4@dollicons.com
-- API_PASSWORD=Test1234!
-- BASE_URL=https://yougile.com
+LOGIN=your_email@example.com
+PASSWORD=your_password
+API_LOGIN=your_email@example.com
+API_PASSWORD=your_password
+BASE_URL=https://ru.yougile.com
 
 ---
 
@@ -72,18 +72,6 @@ pytest -m ui --alluredir=./allure-results
      - Проверка текущего URL
    - **Результат**: Успешное выполнение или ошибка с указанием ожидаемого и фактического результата.
 
-## Описание базового синтаксиса записи и форматирования
-Проект использует следующие технологии и синтаксис:
-
-Python: Основной язык программирования для написания тестов.
-Selenium: Библиотека для автоматизации взаимодействия с веб-браузером.
-Pytest: Фреймворк для написания и запуска тестов.
-Allure: Инструмент для генерации отчетов о выполнении тестов.
-Форматирование кода
-Код форматируется в соответствии с PEP 8 (стиль написания кода на Python).
-Используются docstrings для документирования методов и функций.
-Все шаги теста размечаются с помощью @allure.step или with allure.step для улучшения читаемости отчетов.
-<<<<<<< HEAD
 ## Ссылка на проект
 https://olga-ts.yonote.ru/share/66336c94-7499-4c0c-8934-1daf831c0ed4
 =======
